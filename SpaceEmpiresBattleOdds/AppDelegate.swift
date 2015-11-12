@@ -16,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        print("Starting up")
+        // Init PlayerFleetStore singelton
+        PlayerFleetStore.sharedInstance
+        
+        
+        let battleSim = TestBattle()
+        battleSim.setUp()
+        //battleSim.runSim()
+        
         return true
     }
 

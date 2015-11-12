@@ -12,6 +12,24 @@
 		0C123E681BDE73E8006AB4A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C123E661BDE73E8006AB4A0 /* Main.storyboard */; };
 		0C123E6A1BDE73E8006AB4A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C123E691BDE73E8006AB4A0 /* Assets.xcassets */; };
 		0C123E6D1BDE73E8006AB4A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C123E6B1BDE73E8006AB4A0 /* LaunchScreen.storyboard */; };
+		0C464D831BE2436300612A2C /* TargetPriorityStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C464D821BE2436300612A2C /* TargetPriorityStrategy.swift */; };
+		0C464D851BE2439000612A2C /* ScreeningStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C464D841BE2439000612A2C /* ScreeningStrategy.swift */; };
+		0C464D871BE25C0F00612A2C /* TestBattle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C464D861BE25C0F00612A2C /* TestBattle.swift */; };
+		0C7EBDA01BE669C4001370BE /* UnitGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7EBD9F1BE669C4001370BE /* UnitGroupTableViewCell.swift */; };
+		0C7F46711BF200BB005C7206 /* SimResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F46701BF200BB005C7206 /* SimResultTableViewCell.swift */; };
+		0C8147551BF484BC00D75CAD /* StrategyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8147541BF484BC00D75CAD /* StrategyTableViewCell.swift */; };
+		0C83AD461BF390EE00886B8F /* StrategySelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83AD451BF390EE00886B8F /* StrategySelectViewController.swift */; };
+		0C83B71C1BE7496700E93D06 /* BattleEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83B71B1BE7496700E93D06 /* BattleEditorViewController.swift */; };
+		0C83B71E1BE74D7800E93D06 /* UnitGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83B71D1BE74D7800E93D06 /* UnitGroup.swift */; };
+		0C83B7201BE798D600E93D06 /* PlayerFleetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83B71F1BE798D600E93D06 /* PlayerFleetStore.swift */; };
+		0C87F82B1BDFC8DC007AC3C5 /* CombatSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C87F82A1BDFC8DC007AC3C5 /* CombatSimulator.swift */; };
+		0C87F82D1BDFCC2A007AC3C5 /* PlayerGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C87F82C1BDFCC2A007AC3C5 /* PlayerGroup.swift */; };
+		0C94B7FA1BF0982F00B2DBEA /* SimSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C94B7F91BF0982F00B2DBEA /* SimSettingsViewController.swift */; };
+		0C94B7FC1BF09A2200B2DBEA /* SimSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C94B7FB1BF09A2200B2DBEA /* SimSettings.swift */; };
+		0C94B7FE1BF0E50E00B2DBEA /* SimResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C94B7FD1BF0E50E00B2DBEA /* SimResultViewController.swift */; };
+		0C94EECA1BECD4900069530B /* GroupEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C94EEC91BECD4900069530B /* GroupEditorViewController.swift */; };
+		0CB860101BF2380200518718 /* SimStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB8600F1BF2380200518718 /* SimStats.swift */; };
+		0CD861611BDF965E00FD0D17 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD861601BDF965E00FD0D17 /* Unit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +40,24 @@
 		0C123E691BDE73E8006AB4A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C123E6C1BDE73E8006AB4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C123E6E1BDE73E8006AB4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C464D821BE2436300612A2C /* TargetPriorityStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetPriorityStrategy.swift; sourceTree = "<group>"; };
+		0C464D841BE2439000612A2C /* ScreeningStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreeningStrategy.swift; sourceTree = "<group>"; };
+		0C464D861BE25C0F00612A2C /* TestBattle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBattle.swift; sourceTree = "<group>"; };
+		0C7EBD9F1BE669C4001370BE /* UnitGroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitGroupTableViewCell.swift; sourceTree = "<group>"; };
+		0C7F46701BF200BB005C7206 /* SimResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimResultTableViewCell.swift; sourceTree = "<group>"; };
+		0C8147541BF484BC00D75CAD /* StrategyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyTableViewCell.swift; sourceTree = "<group>"; };
+		0C83AD451BF390EE00886B8F /* StrategySelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategySelectViewController.swift; sourceTree = "<group>"; };
+		0C83B71B1BE7496700E93D06 /* BattleEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleEditorViewController.swift; sourceTree = "<group>"; };
+		0C83B71D1BE74D7800E93D06 /* UnitGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitGroup.swift; sourceTree = "<group>"; };
+		0C83B71F1BE798D600E93D06 /* PlayerFleetStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerFleetStore.swift; sourceTree = "<group>"; };
+		0C87F82A1BDFC8DC007AC3C5 /* CombatSimulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombatSimulator.swift; sourceTree = "<group>"; };
+		0C87F82C1BDFCC2A007AC3C5 /* PlayerGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerGroup.swift; sourceTree = "<group>"; };
+		0C94B7F91BF0982F00B2DBEA /* SimSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimSettingsViewController.swift; sourceTree = "<group>"; };
+		0C94B7FB1BF09A2200B2DBEA /* SimSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimSettings.swift; sourceTree = "<group>"; };
+		0C94B7FD1BF0E50E00B2DBEA /* SimResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimResultViewController.swift; sourceTree = "<group>"; };
+		0C94EEC91BECD4900069530B /* GroupEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupEditorViewController.swift; sourceTree = "<group>"; };
+		0CB8600F1BF2380200518718 /* SimStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimStats.swift; sourceTree = "<group>"; };
+		0CD861601BDF965E00FD0D17 /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +91,29 @@
 			isa = PBXGroup;
 			children = (
 				0C123E621BDE73E8006AB4A0 /* AppDelegate.swift */,
+				0C464D861BE25C0F00612A2C /* TestBattle.swift */,
 				0C123E641BDE73E8006AB4A0 /* ViewController.swift */,
+				0C83B71B1BE7496700E93D06 /* BattleEditorViewController.swift */,
+				0C83B71F1BE798D600E93D06 /* PlayerFleetStore.swift */,
+				0C94B7FB1BF09A2200B2DBEA /* SimSettings.swift */,
+				0CB8600F1BF2380200518718 /* SimStats.swift */,
 				0C123E661BDE73E8006AB4A0 /* Main.storyboard */,
+				0C8147541BF484BC00D75CAD /* StrategyTableViewCell.swift */,
+				0C83AD451BF390EE00886B8F /* StrategySelectViewController.swift */,
+				0C94B7FD1BF0E50E00B2DBEA /* SimResultViewController.swift */,
+				0C7F46701BF200BB005C7206 /* SimResultTableViewCell.swift */,
+				0C94B7F91BF0982F00B2DBEA /* SimSettingsViewController.swift */,
+				0C94EEC91BECD4900069530B /* GroupEditorViewController.swift */,
+				0C7EBD9F1BE669C4001370BE /* UnitGroupTableViewCell.swift */,
 				0C123E691BDE73E8006AB4A0 /* Assets.xcassets */,
 				0C123E6B1BDE73E8006AB4A0 /* LaunchScreen.storyboard */,
 				0C123E6E1BDE73E8006AB4A0 /* Info.plist */,
+				0C83B71D1BE74D7800E93D06 /* UnitGroup.swift */,
+				0CD861601BDF965E00FD0D17 /* Unit.swift */,
+				0C87F82C1BDFCC2A007AC3C5 /* PlayerGroup.swift */,
+				0C464D841BE2439000612A2C /* ScreeningStrategy.swift */,
+				0C464D821BE2436300612A2C /* TargetPriorityStrategy.swift */,
+				0C87F82A1BDFC8DC007AC3C5 /* CombatSimulator.swift */,
 			);
 			path = SpaceEmpiresBattleOdds;
 			sourceTree = "<group>";
@@ -96,6 +150,7 @@
 				TargetAttributes = {
 					0C123E5E1BDE73E8006AB4A0 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = J7M523W9C2;
 					};
 				};
 			};
@@ -135,8 +190,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7F46711BF200BB005C7206 /* SimResultTableViewCell.swift in Sources */,
 				0C123E651BDE73E8006AB4A0 /* ViewController.swift in Sources */,
+				0C94EECA1BECD4900069530B /* GroupEditorViewController.swift in Sources */,
+				0C94B7FC1BF09A2200B2DBEA /* SimSettings.swift in Sources */,
+				0C87F82D1BDFCC2A007AC3C5 /* PlayerGroup.swift in Sources */,
+				0CD861611BDF965E00FD0D17 /* Unit.swift in Sources */,
+				0C83B71E1BE74D7800E93D06 /* UnitGroup.swift in Sources */,
+				0CB860101BF2380200518718 /* SimStats.swift in Sources */,
+				0C87F82B1BDFC8DC007AC3C5 /* CombatSimulator.swift in Sources */,
+				0C94B7FE1BF0E50E00B2DBEA /* SimResultViewController.swift in Sources */,
 				0C123E631BDE73E8006AB4A0 /* AppDelegate.swift in Sources */,
+				0C464D851BE2439000612A2C /* ScreeningStrategy.swift in Sources */,
+				0C8147551BF484BC00D75CAD /* StrategyTableViewCell.swift in Sources */,
+				0C464D831BE2436300612A2C /* TargetPriorityStrategy.swift in Sources */,
+				0C83AD461BF390EE00886B8F /* StrategySelectViewController.swift in Sources */,
+				0C464D871BE25C0F00612A2C /* TestBattle.swift in Sources */,
+				0C83B71C1BE7496700E93D06 /* BattleEditorViewController.swift in Sources */,
+				0C94B7FA1BF0982F00B2DBEA /* SimSettingsViewController.swift in Sources */,
+				0C7EBDA01BE669C4001370BE /* UnitGroupTableViewCell.swift in Sources */,
+				0C83B7201BE798D600E93D06 /* PlayerFleetStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SpaceEmpiresBattleOdds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiborg.SpaceEmpiresBattleOdds;
@@ -260,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SpaceEmpiresBattleOdds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiborg.SpaceEmpiresBattleOdds;
@@ -286,6 +361,7 @@
 				0C123E731BDE73E8006AB4A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
