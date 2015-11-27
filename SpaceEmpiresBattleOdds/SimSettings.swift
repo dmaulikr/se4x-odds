@@ -37,6 +37,9 @@ class SimSettings {
         // read defaults from NSUserDefaults
         let defaults = NSUserDefaults.standardUserDefaults()
         simIterations = defaults.integerForKey(simIterationsKey)
+        if simIterations == 0 {
+            simIterations = 1000
+        }
         if let attackTargetStrat = TargetPriorityStrategy(rawValue: defaults.integerForKey(attackerTargetStratKey)) {
             attackerTargetStrategy = attackTargetStrat
         }
